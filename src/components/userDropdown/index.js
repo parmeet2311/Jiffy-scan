@@ -92,15 +92,15 @@ const UserDropdown = (props) => {
         sx={{
           "& .MuiMenu-paper": {
             width: 230,
-            mt: 4,
+            mt: 2,
             boxShadow: "none",
             border: "1px solid #DADCE0",
           },
           boxShadow: "none",
           padding: 0,
         }}
-        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
-        transformOrigin={{ vertical: "top", horizontal: "right" }}
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        transformOrigin={{ vertical: "top", horizontal: "center" }}
       >
         <MenuItem
           sx={{ p: 0 }}
